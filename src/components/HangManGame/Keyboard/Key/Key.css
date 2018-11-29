@@ -1,0 +1,61 @@
+.Key_default{
+    color: #434343;
+    background: #c3eefb;
+    min-height: 50px;
+    min-width: 50px;
+    text-decoration: none;
+    border: 1px solid #add9e8;
+}
+.Key_default:hover{
+    background: #93b9c5;
+}
+
+.Key_used{
+    background: #393939;
+    color: #c9c9c9;
+    min-height: 50px;
+    min-width: 50px;
+    text-decoration: none;
+    border: 1px solid #292929;
+}
+
+.Key_Guess{
+    background: #5de680;
+    color: #434343;
+    min-height: 50px;
+    min-width: 50px;
+    text-decoration: none;
+    border: 1px solid #57d678;
+}
+
+@media only screen and (max-width: 470px) {
+    .Key_default{
+        color: #434343;
+        background: #c3eefb;
+        min-height: 25px;
+        min-width: 25px;
+        text-decoration: none;
+        border: 1px solid #add9e8;
+    }
+    .Key_default:hover{
+        background: #93b9c5;
+    }
+
+    .Key_used{
+        background: #393939;
+        color: #c9c9c9;
+        min-height: 25px;
+        min-width: 25px;
+        text-decoration: none;
+        border: 1px solid #292929;
+    }
+
+    .Key_Guess{
+        background: #5de680;
+        color: #434343;
+        min-height: 25px;
+        min-width: 25px;
+        text-decoration: none;
+        border: 1px solid #57d678;
+    }
+}

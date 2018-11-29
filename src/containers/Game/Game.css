@@ -1,0 +1,46 @@
+.Game{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Restart{
+    margin-top: 5%;
+    color: #484848;
+    border: none;
+
+    text-decoration: none;
+    padding: 10px;
+    background-color: #b6f5cf;
+    font-size: 150%;
+    width: 25%;
+
+}
+
+.Restart:hover{
+    background-color: #ade9c5;
+}
+
+@media only screen and (max-width: 470px) {
+    .Game{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .Restart{
+        margin-top: 5%;
+        color: #484848;
+        border: none;
+
+        text-decoration: none;
+        padding: 5px;
+        background-color: #b6f5cf;
+        font-size: 90%;
+        width: 30%;
+
+    }
+
+    .Restart:hover{
+        background-color: #ade9c5;
+    }
+
+}

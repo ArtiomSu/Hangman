@@ -1,0 +1,103 @@
+.LoginForm{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.LoginForm form{
+    margin-top: 5%;
+
+}
+
+.LoginForm form label{
+    color: #484848;
+
+}
+
+.LoginForm input{
+    width: 220px;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #b6f5cf;
+}
+
+.LoginForm input:focus{
+    border: none;
+    background-color: #c3eefb;
+    outline: none;
+}
+
+.submitButton{
+    color: #484848;
+    border: none;
+    width: fit-content !important;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #b6f5cf;
+}
+
+.submitButton:hover{
+    color: #484848;
+    background-color: #ade9c5;
+}
+
+.buttons{
+    margin-left: 12em;
+}
+
+@media only screen and (max-width: 470px) {
+    .LoginForm{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .LoginForm form{
+        margin-top: 5%;
+
+    }
+
+    .LoginForm form label{
+        color: #484848;
+
+    }
+
+    .LoginForm input{
+        width: 220px;
+        margin: 5px;
+        border: none;
+        padding: 10px;
+        border-bottom: 1px solid #b6f5cf;
+    }
+
+    .LoginForm input:focus{
+        border: none;
+        background-color: #c3eefb;
+        outline: none;
+    }
+
+    .submitButton{
+        color: #484848;
+        border: none;
+        width: fit-content !important;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #b6f5cf;
+    }
+
+    .submitButton:hover{
+        color: #484848;
+        background-color: #ade9c5;
+    }
+
+    .buttons{
+        margin-left: 5em;
+        padding: 5px;
+    }
+
+    h2{
+        font-size: 85%;
+    }
+
+
+
+}

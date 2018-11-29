@@ -1,0 +1,30 @@
+.Profile button{
+    text-decoration: none;
+    border:none;
+    height: 56px;
+    width: 10em;
+    color: #d9d9d9;
+    background-color: #212121;
+    font-size: 120%;
+}
+
+.Profile button:hover{
+    background-color: #434343;
+}
+
+@media only screen and (max-width: 470px) {
+    .Profile button{
+        text-decoration: none;
+        border:none;
+        height: 36px;
+        width: 5em;
+        color: #d9d9d9;
+        background-color: #212121;
+        font-size: 100%;
+    }
+
+    .Profile button:hover{
+        background-color: #434343;
+    }
+
+}

@@ -1,0 +1,191 @@
+.myButton{
+    display:block;
+    width:fit-content;
+    height:auto;
+    line-height:50px;
+
+    border-radius: 50%;
+    color: #626364;
+    text-align:center;
+    text-decoration:none;
+
+    box-shadow: 0 0 3px gray;
+    font-size:140%;
+    font-weight:bold;
+}
+
+.cat0{
+    border: 2px solid #8db9c6;
+    background: #add7e4;
+    margin-top: 8%;
+    margin-left: 50%;
+}
+.cat0:hover{
+    border: 2px solid #add7e4;
+    background: #8db9c6;
+}
+.cat1{
+    border: 2px solid #99d490;
+    background: #b6e2ac;
+
+    margin-left: 30%;
+}
+.cat1:hover{
+    border: 2px solid #b6e2ac;
+    background: #99d490;
+
+
+}
+.cat2{
+    border: 2px solid #cfc28e;
+    background: #e2d7ac;
+    margin-left: 65%;
+}
+.cat2:hover{
+    border: 2px solid #e2d7ac;
+    background: #cfc28e;
+
+}
+.cat3{
+    border: 2px solid #d09dc8;
+    background: #e2acdc;
+
+    margin-left: 35%;
+}
+.cat3:hover{
+    border: 2px solid #e2acdc;
+    background: #d09dc8;
+
+
+}
+.cat4{
+    border: 2px solid #b19fd0;
+    background: #c6ace2;
+    margin-left: 60%;
+}
+.cat4:hover{
+
+    border: 2px solid #c6ace2;
+    background: #b19fd0;
+
+}
+.cat5{
+    border: 2px solid #92c7bf;
+    background: #ace2da;
+
+    margin-left: 45%;
+}
+.cat5:hover{
+    border: 2px solid #ace2da;
+    background: #92c7bf;
+
+}
+.catR{
+    border: 2px solid #cc9292;
+    background: #e2acac;
+    margin-top: 7%;
+    margin-left: 47%;
+}
+.catR:hover{
+    border: 2px solid #e2acac;
+    background: #cc9292;
+
+}
+
+@media only screen and (max-width: 470px) {
+    .myButton{
+        display:block;
+        width:fit-content;
+        height:auto;
+        line-height:50px;
+
+        border-radius: 50%;
+        color: #626364;
+        text-align:center;
+        text-decoration:none;
+
+        box-shadow: 0 0 3px gray;
+        font-size:100%;
+        font-weight:bold;
+    }
+
+    .cat0{
+        border: 2px solid #8db9c6;
+        background: #add7e4;
+        margin-top: -14%;
+        margin-left: 50%;
+    }
+    .cat0:hover{
+        border: 2px solid #add7e4;
+        background: #8db9c6;
+    }
+    .cat1{
+        border: 2px solid #99d490;
+        background: #b6e2ac;
+        padding: 5px;
+        margin-left: 10%;
+    }
+    .cat1:hover{
+        border: 2px solid #b6e2ac;
+        background: #99d490;
+
+
+    }
+    .cat2{
+        border: 2px solid #cfc28e;
+        background: #e2d7ac;
+        margin-left: 65%;
+    }
+    .cat2:hover{
+        border: 2px solid #e2d7ac;
+        background: #cfc28e;
+
+    }
+    .cat3{
+        border: 2px solid #d09dc8;
+        background: #e2acdc;
+
+        margin-left: 25%;
+    }
+    .cat3:hover{
+        border: 2px solid #e2acdc;
+        background: #d09dc8;
+
+
+    }
+    .cat4{
+        border: 2px solid #b19fd0;
+        background: #c6ace2;
+        margin-left: 60%;
+    }
+    .cat4:hover{
+
+        border: 2px solid #c6ace2;
+        background: #b19fd0;
+
+    }
+    .cat5{
+        border: 2px solid #92c7bf;
+        background: #ace2da;
+
+        margin-left: 30%;
+    }
+    .cat5:hover{
+        border: 2px solid #ace2da;
+        background: #92c7bf;
+
+    }
+    .catR{
+        border: 2px solid #cc9292;
+        background: #e2acac;
+        margin-top: 7%;
+        margin-left: 30%;
+    }
+    .catR:hover{
+        border: 2px solid #e2acac;
+        background: #cc9292;
+
+    }
+
+
+}

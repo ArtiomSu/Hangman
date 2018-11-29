@@ -1,0 +1,19 @@
+.InfoBoard{
+    color: #434343;
+    margin-top: 10%;
+}
+
+.win{
+    color: #54d174;
+}
+
+.loose{
+    color: #d14841;
+}
+
+@media only screen and (max-width: 470px) {
+    h1{
+        font-size: 100%;
+    }
+
+}
